@@ -8,34 +8,38 @@
     height: 150px;
     width: 150px;
     background-color: red;
-    transition: width 5s;
+    transition: all 5s;
 }
 
 #red:hover {
     width: 300px;
+    background-color: aqua;
 }
 
 #blue {
     height: 150px;
     width: 150px;
     background-color: blue;
-    transition: height 5s;
+    transition: all 5s;
 }
 
 #blue:hover {
     height: 300px;
+    background-color: pink;
 }
 
 #green {
     height: 150px;
     width: 150px;
     background-color: green;
-    transition: width 1s, height 5s;
+    transition: all 5s;
 }
 
 #green:hover {
     height: 300px;
     width: 300px;
+    background-color: purple;
+
 }
 
 
