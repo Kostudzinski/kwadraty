@@ -1,0 +1,41 @@
+* {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#red {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    transition: width 5s;
+}
+
+#red:hover {
+    width: 300px;
+}
+
+#blue {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    transition: height 5s;
+}
+
+#blue:hover {
+    height: 300px;
+}
+
+#green {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    transition: width 1s, height 5s;
+}
+
+#green:hover {
+    height: 300px;
+    width: 300px;
+}
+
+
